@@ -1,0 +1,25 @@
+canvas{
+    display:block;
+    margin: 10px auto;
+    height: 600px;
+    width: 600px;
+    border:1px solid #000000;
+}
+.toolbar{
+    display: flex;
+    flex-direction: column;
+    height: 105px;
+    width: 815px;
+    position: fixed;
+    bottom: 0;
+    left:50%;
+    background: #fff;
+    border: 1px solid #d4dfe9;
+    transform: translateX(-50%);
+    min-width: 650px;
+}
+.info{
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    display: flex;
+}
